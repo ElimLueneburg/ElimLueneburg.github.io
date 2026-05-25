@@ -19,7 +19,20 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html" class="active">Deine Kirche</a></li>
+        <li class="nav-dropdown is-current">
+          <a href="index.html" class="nav-dropdown-toggle active">
+            Deine Kirche
+            <svg class="nav-dropdown-caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true">
+              <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="vision.html" class="active">Vision</a></li>
+            <li><a href="gottesdienst.html">Gottesdienst</a></li>
+            <li><a href="kleingruppen.html">Kleingruppen</a></li>
+            <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+          </ul>
+        </li>
         <li><a href="../media/">Media</a></li>
         <li><a href="../kontakt.html">Kontakt</a></li>
       </ul>

@@ -713,6 +713,14 @@ p {
   gap: 1.25rem;
 }
 
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .footer-logo {
   color: #ffffff;
 }
@@ -728,6 +736,7 @@ p {
   font-style: italic;
   font-size: 0.95rem;
   color: #ffffff;
+  margin: 0;
 }
 
 .footer-links {
